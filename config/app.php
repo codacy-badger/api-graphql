@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        \Supliu\LaravelGraphQL\ServiceProvider::class,
 
         /*
          * Application Service Providers...
