@@ -15,7 +15,9 @@ return [
         'default' => [
 
             'queries' => [],
-            'mutations' => []
+            'mutations' => [
+                'auth' => \App\Http\GraphQL\Webapp\Mutations\Auth::class
+            ]
 
         ]
     ]
